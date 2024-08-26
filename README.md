@@ -15,6 +15,6 @@ The repository is organized as follows:
   4) **Timescale** timeseries database for persisting historic context. 
   5) **Mintaka** add-on which services the temporal interface and is responsible for persisting the context. 
   6) **Grafana** service used for display the persisted time-series data stored in Timescale.
-- **DataModel Generator** contains the Python script to interact with FIWARE Components through the ngsildclient library. Due to the fact that data and AI models belong to a private company, no further details can be provided. 
+- **DataModel Generator** contains the Python scripts to interact with FIWARE Components through the ngsildclient library. These scripts aims at showing how the library works to easily interact with FIWARE components deployed in the opportune containers. Due to the fact that data and AI models belong to a private company, no further details can be provided. 
 
 
