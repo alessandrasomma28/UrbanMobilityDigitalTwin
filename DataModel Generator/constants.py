@@ -1,3 +1,5 @@
+from ngsildclient import CORE_CONTEXT
+
 # File datapath constants
 realDataPath = "./dataset.csv"
 stopDataPath = "./stops.txt"
