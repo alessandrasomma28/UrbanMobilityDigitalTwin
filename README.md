@@ -7,7 +7,8 @@ This repository contains a small-scale implementation of a Digital Twin (DT) arc
 
 ## Repository Structure
 The repository is organized as follows:
-- **FIWARE Components** contains the docker-compose.yml file to deploy these containers: 
+- **Further Readings** contains *nomefile* with a lists of manuscripts related to the research topic of Digital Twin Architectures, aiming at help readers to understand the context and relevance of our work.  
+- **FIWARE Components** contains the *docker-compose.yml* file to deploy these containers: 
   1) **Orion-LD** is FIWARE Context Broker. This will receive/send requests in NGSI-LD format.
   2) **IoT Agent** for JSON, the bridge that allows devices communication using a simple JSON protocol.  
   3) **MongoDB** is used by *i)* the Orion Context Broker to hold context data information, subscriptions and registrations; *ii)* the IoT Agent to hold device information (device URLs and API keys)
