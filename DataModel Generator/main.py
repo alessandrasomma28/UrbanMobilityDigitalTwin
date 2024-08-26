@@ -8,7 +8,7 @@ if __name__ == "__main__":
     realData = importDataset(realDataPath)
     lat, lon, stopsData = importStopData(stopDataPath, stopsDataPath)
 
-    cb = Client("localhost", port=1026, tenant="openiot", overwrite=True)
+    cb = Client("localhost", port=ORIONLD_PORT, port_temporal=ORIONLD_PORT_TEMPORAL, tenant="openiot", overwrite=True)
     print(cb.is_connected()) #check connection
 
     bus = busEntityCreation(1)
