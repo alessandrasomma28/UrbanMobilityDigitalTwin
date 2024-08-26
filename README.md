@@ -7,7 +7,7 @@ This repository contains a small-scale implementation of a Digital Twin (DT) arc
 
 ## Repository Structure
 The repository is organized as follows:
-- **Further Readings** contains *FurtherReadingList.csv* with a lists of manuscripts related to the research topic of Digital Twin Architectures, aiming at help readers to understand the context and relevance of our work.  
+- **Further Readings** contains *FurtherReadingList.xlsx* with a lists of manuscripts related to the research topic of Digital Twin Architectures, aiming at help readers to understand the context and relevance of our work.  
 - **FIWARE Components** contains the *docker-compose.yml*  and *.env* files to deploy these containers: 
   1) **Orion-LD** is FIWARE Context Broker. This will receive/send requests in NGSI-LD format.
   2) **IoT Agent** for JSON, the bridge that allows devices communication using a simple JSON protocol.  
